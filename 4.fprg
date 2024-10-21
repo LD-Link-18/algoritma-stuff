@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="4"/>
+        <attribute name="authors" value="samet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 11:19:20 AM"/>
+        <attribute name="created" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjE7MTA6NDM6MTcgQU07MjIyOA=="/>
+        <attribute name="edited" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjE7MTE6MTk6MjAgQU07MzsyMzM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize" type="Integer" array="False" size=""/>
+            <declare name="final" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vize giriniz&quot;" newline="True"/>
+            <input variable="vize"/>
+            <assign variable="vize" expression="vize*40/100"/>
+            <output expression="&quot;Final giriniz&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="final" expression="final*60/100"/>
+            <declare name="sonNot" type="Integer" array="False" size=""/>
+            <assign variable="sonNot" expression="vize+final"/>
+            <if expression="sonNot&gt;=60">
+                <then>
+                    <output expression="&quot;Ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

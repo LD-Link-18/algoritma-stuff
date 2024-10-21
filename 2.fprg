@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="programlamaya giri&#351;"/>
+        <attribute name="authors" value="nuhbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-20 07:59:05 PM"/>
+        <attribute name="created" value="bnVoYmU7QkVOSFVSOzIwMjQtMTAtMTk7MDE6Mjc6NTggw5ZTOzI0MDg="/>
+        <attribute name="edited" value="bnVoYmU7QkVOSFVSOzIwMjQtMTAtMTk7MDI6MDQ6NTQgw5ZTOzE7MjUwOA=="/>
+        <attribute name="edited" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjA7MDc6NTk6MDUgUE07MjsyMzYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="girdi" type="Integer" array="False" size=""/>
+            <assign variable="girdi" expression="1"/>
+            <declare name="toplam" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="0"/>
+            <while expression="girdi!=0">
+                <input variable="girdi"/>
+                <if expression="girdi%2!=0">
+                    <then>
+                        <assign variable="toplam" expression="toplam + girdi"/>
+                        <assign variable="sayi" expression="sayi + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="toplam/(sayi-1)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="samet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 11:52:10 AM"/>
+        <attribute name="created" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjE7MTE6MzQ6MzEgQU07MjIyNQ=="/>
+        <attribute name="edited" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjE7MTE6NTI6MTAgQU07MjsyMzMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="msj" type="String" array="False" size=""/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Mesaj girin&quot;" newline="True"/>
+            <input variable="msj"/>
+            <output expression="&quot;Say&#305; girin&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="1" end="sayi" direction="inc" step="1">
+                <output expression="msj" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

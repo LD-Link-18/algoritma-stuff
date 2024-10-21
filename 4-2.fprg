@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="4"/>
+        <attribute name="authors" value="samet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 11:32:31 AM"/>
+        <attribute name="created" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjE7MTA6NDM6MTcgQU07MjIyOA=="/>
+        <attribute name="edited" value="c2FtZXQ7RkVET1JBOzIwMjQtMTAtMjE7MTE6MzI6MzEgQU07NDsyMzM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kalemFiyat" type="Integer" array="False" size=""/>
+            <declare name="kalemAdet" type="Integer" array="False" size=""/>
+            <declare name="silgiFiyat" type="Integer" array="False" size=""/>
+            <declare name="silgiAdet" type="Integer" array="False" size=""/>
+            <declare name="defterFiyat" type="Integer" array="False" size=""/>
+            <declare name="defterAdet" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kalem fiyat&#305; girin&quot;" newline="True"/>
+            <input variable="kalemFiyat"/>
+            <output expression="&quot;Kalem adedi girin&quot;" newline="True"/>
+            <input variable="kalemAdet"/>
+            <output expression="&quot;Silgi fiyat&#305; girin&quot;" newline="True"/>
+            <input variable="silgiFiyat"/>
+            <output expression="&quot;Silgi adedi girin&quot;" newline="True"/>
+            <input variable="silgiAdet"/>
+            <output expression="&quot;Defter fiyat&#305; girin&quot;" newline="True"/>
+            <input variable="defterFiyat"/>
+            <output expression="&quot;Defter adedi girin&quot;" newline="True"/>
+            <input variable="defterAdet"/>
+            <output expression="(silgiFiyat*silgiAdet)+(kalemFiyat*kalemAdet)+(defterFiyat*defterAdet)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
